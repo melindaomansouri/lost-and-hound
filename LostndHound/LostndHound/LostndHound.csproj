@@ -106,9 +106,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="LostandHound\css\stylesheet.css" />
     <Content Include="LostandHound\index.html" />
     <Content Include="LostandHound\pages\chat.html" />
     <Content Include="LostandHound\pages\hound.html" />
+    <Content Include="LostandHound\pages\login.html" />
     <Content Include="LostandHound\pages\lost.html" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
