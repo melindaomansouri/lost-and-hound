@@ -12,29 +12,34 @@
 
 </head>
 <body>
-<form>
-    <div data-role="fieldcontain">
-        <label for="breed">Breed</label>
-        <input type="text" name="breed" required />
-    </div>
+<div id="form" data-role="page">
+    <form>
+        <div data-role="fieldcontain">
+            <label for="breed">Breed</label>
+            <input type="text" name="breed" required />
+        </div>
 
-    <div data-role="fieldcontain">
-        <label for="color">Color</label>
-        <input type="text" name="color" required />
-    </div>
-    <div data-role="fieldcontain">
-        <label for="tags">Tags</label>
-        <input type="text" name="tags" />
-    </div>
-    <div data-roole="fieldcontain">
-    <label for="location">Location</label>
-    <textarea name="location"></textarea>
-    </div>
-    Or use maps<br />
-    <div id="map" data-role="page">
+        <div data-role="fieldcontain">
+            <label for="color">Color</label>
+            <input type="text" name="color" required />
+        </div>
+        <div data-role="fieldcontain">
+            <label for="tags">Tags</label>
+            <input type="text" name="tags" />
+        </div>
+        <div data-roole="fieldcontain">
+        <label for="location">Location</label>
+        <textarea name="location"></textarea>
+        </div>
+    </form>
+    <a href="#map-pg" class="ui-btn"><i class="fa fa-map-marker fa-3x" aria-hidden="true" id="map-ico"></i></a>
+</div>
 
+    
+    <div data-role="page" id="map-pg">
+        <div id="map"></div>
+        <a href="#form" class="ui-btn"><i class="fa fa-chevron-left fa-3x" aria-hidden="true"></i></a>
     </div>
-</form>
     <script>
       function initMap() {
         var mapDiv = document.getElementById('map');
