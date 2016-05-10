@@ -9,22 +9,32 @@
     <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 </head>
 <body>
-      <form>
-          <div data-role="fieldcontain">
-            <label for="breed">Breed:</label>
-            <input type="text" id="breed"/>
-          </div>
-          <div data-role="fieldcontain">
-              <label for="color">Color:</label>
-              <input type="text" id="color" />
-          </div>
-          <div data-role="fieldcontain">
-              <label for="tags">Tags:</label>
-              <input type="text" id="tags" />
-          </div>
-          <label for="location">Location:</label>
-          <textarea name="location" id="location"></textarea>
-          <button type="submit">Submit</button>
-      </form>
+    <div data-role="page" id="pageone">
+        <div data-role="header">
+            <h1>Lost A Pet?</h1>
+        </div>
+
+        <form>
+            <div data-role="fieldcontain">
+                <label for="breed">*Breed:</label>
+                <input type="text" name="breed" id="breed" required>
+            </div>
+            <div data-role="fieldcontain">
+                <label for="color">*Color:</label>
+                <input type="text" name="color" id="color" required>
+            </div>
+            <div data-role="fieldcontain">
+                <label for="tags">Tags:</label>
+                <input type="text" name="tags" id="tags">
+            </div>
+            <div data-role="fieldcontain">
+                <label for="textarea">Location</label>
+                <textarea name="location" id="location"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+</form>
+
+        <div data-role="footer"></div>
+    </div> 
 </body>
 </html>
