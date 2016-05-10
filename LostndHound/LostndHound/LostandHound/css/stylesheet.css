@@ -1,2 +1,14 @@
 ﻿body {
 }
+/*Hound page*/
+#map{
+    width: 100%;
+    max-width: 500px;
+    height: 500px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+body {
+    margin: 5px;
+}
