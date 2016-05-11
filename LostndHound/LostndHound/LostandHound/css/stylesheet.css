@@ -12,3 +12,16 @@
 body {
     margin: 5px;
 }
+#content{
+    margin: 0 50px;
+    float: left;
+    width: 90%;
+}
+.center{
+    align-content: center;
+    width: 100%;
+
+}
+i {
+    margin: 0 50% 0 50%
+}
