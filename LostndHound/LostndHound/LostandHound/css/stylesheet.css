@@ -1,14 +1,22 @@
 ﻿body {
 }
 /*Hound page*/
-#map{
-    width: 100%;
-    max-width: 500px;
-    height: 500px;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
 body {
-    margin: 5px;
+    margin: 5%;
+    padding: 50px;
 }
+/*#content{
+    margin-left: 50px;
+    margin-right: 50px;
+    float: left;
+    width: 90%;
+}*/
+.center{
+    align-content: center;
+    width: 100%;
+
+}
+i {
+    margin: 0 50% 0 50%
+}
+/*1fa7ab*/
