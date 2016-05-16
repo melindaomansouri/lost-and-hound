@@ -11,6 +11,7 @@
 }
 body {
     margin: 5px;
+    background-color: #1fa7ab;
 }
 /* nav */
 p {
@@ -19,11 +20,17 @@ p {
     margin-bottom: 0px;
     font-family: Open Sans Condensed;
     font-weight: 700;
+    overflow: visible;
+    text-overflow: clip;
+    white-space: normal;
 }
 #nav {
     position: fixed;
     bottom: 0px;
     width: 100%;
+}
+li {
+    align: center;
 }
 #content {
     margin: 0 50px;
