@@ -11,7 +11,6 @@
 }
 body {
     margin: 5px;
-    background-color: #1fa7ab;
 }
 /* nav */
 p {
@@ -20,27 +19,18 @@ p {
     margin-bottom: 0px;
     font-family: Open Sans Condensed;
     font-weight: 700;
-    overflow: visible;
-    text-overflow: clip;
-    white-space: normal;
 }
 #nav {
     position: fixed;
     bottom: 0px;
     width: 100%;
 }
-li {
-    align: center;
+.ui-page {
+    background: #1fa7ab;
 }
-#content {
-    margin: 0 50px;
-    float: left;
-    width: 90%;
-}
-.center {
-    align-content: center;
-    width: 100%;
-}
-i {
-    margin: 0 50% 0 50%;
+
+label {
+    font-family: Open Sans Condensed;
+    color: #ffffff;
+    font-weight: 700;
 }
