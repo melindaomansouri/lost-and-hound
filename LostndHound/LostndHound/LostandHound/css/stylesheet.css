@@ -20,6 +20,9 @@ p {
     margin-bottom: 0px;
     font-family: Open Sans Condensed;
     font-weight: 700;
+    overflow: visible;
+    text-overflow: clip;
+    white-space: normal;
 }
 #nav {
     position: fixed;
