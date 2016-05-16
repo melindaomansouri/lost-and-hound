@@ -11,8 +11,8 @@
 }
 body {
     margin: 5px;
+    background-color: #1fa7ab;
 }
-
 /* nav */
 p {
     font-size: 12pt;
@@ -20,23 +20,12 @@ p {
     margin-bottom: 0px;
     font-family: Open Sans Condensed;
     font-weight: 700;
+    overflow: visible;
+    text-overflow: clip;
+    white-space: normal;
 }
 #nav {
     position: fixed;
     bottom: 0px;
     width: 100%;
-}
-
-/*index page*/
-{
-    position: center;
-    top: 50%;
-    left: 50%;
-    width: 30em;
-    height: 18em;
-    margin-top: -9em;
-    margin-left: -15em;
-}
-.header{
-    background-color: #
 }
