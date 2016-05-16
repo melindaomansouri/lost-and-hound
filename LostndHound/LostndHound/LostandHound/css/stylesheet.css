@@ -26,6 +26,9 @@ p {
     bottom: 0px;
     width: 100%;
 }
+li {
+    align: center;
+}
 #content {
     margin: 0 50px;
     float: left;
