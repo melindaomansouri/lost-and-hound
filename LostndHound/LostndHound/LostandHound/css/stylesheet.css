@@ -25,12 +25,13 @@ p {
     bottom: 0px;
     width: 100%;
 }
-.ui-page {
-    background: #1fa7ab;
-}
+
 
 label {
     font-family: Open Sans Condensed;
     color: #ffffff;
     font-weight: 700;
+}
+#content {
+    padding-right: 5px;
 }
