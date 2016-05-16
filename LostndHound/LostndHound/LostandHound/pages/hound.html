@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title>Hound</title>
+    <title>Found</title>
 	<meta charset="utf-8" />
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scales=1">
@@ -12,35 +12,40 @@
 
 </head>
 <body>
-<div data-role="page" id="content">
-    <form>
-        <div data-role="fieldcontain">
-            <label for="breed">Breed</label>
-            <input type="text" name="breed" required />
-        </div>
+    <div data-role="page" id="content">
+        <form>
+            <div data-role="fieldcontain">
+                <label for="breed">Breed</label>
+                <input type="text" name="breed" required />
+            </div>
 
-        <div data-role="fieldcontain">
-            <label for="color">Color</label>
-            <input type="text" name="color" required />
-        </div>
-        <div data-role="fieldcontain">
-            <label for="tags">Tags</label>
-            <input type="text" name="tags" />
-        </div>
-        <div data-roole="fieldcontain">
-        <label for="location">Location</label>
-        <textarea name="location"></textarea>
-        </div>
-        Or use maps<br />
-    
-    </form>
-    <div class="center">
-        <a class="ui-button" href="#map-pg" onclick="refresh()"><i class="fa fa-map-marker fa-3x" aria-hidden="true"></i></a>
+            <div data-role="fieldcontain">
+                <label for="color">Color</label>
+                <input type="text" name="color" required />
+            </div>
+            <div data-role="fieldcontain">
+                <label for="tags">Tags</label>
+                <input type="text" name="tags" />
+            </div>
+            <div data-roole="fieldcontain">
+                <label for="location">City of Found Animal</label>
+                <input type="text" name="location" required />
+            </div>
+            <!--Or use maps<br />.................NO!!!-->
+            <div data-roole="fieldcontain">
+                <button type="submit">Submit</button>
+            </div>
+
+
+        </form>
     </div>
-</div>
-    <div data-role="page" id="map-pg">
+    <!--<div class="center">
+        <a class="ui-button" href="#map-pg" onclick="refresh()"><i class="fa fa-map-marker fa-3x" aria-hidden="true"></i></a>
+    </div>-->
+    
+    <!--<div data-role="page" id="map-pg">
         <div id="map"></div>
-        <!--<button id="refresh" onclick="refresh()">Map not working?</button>-->
+        [<button id="refresh" onclick="refresh()">Map not working?</button>]
     </div>
     <script>
       function initMap() {
@@ -55,7 +60,6 @@
       }
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
-            async defer></script>
-</body>
+            async defer></script>-->
 </body>
 </html>
