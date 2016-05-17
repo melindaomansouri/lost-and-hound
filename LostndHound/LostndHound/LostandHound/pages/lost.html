@@ -16,7 +16,7 @@
             <h1>Lost A Pet?</h1>
         </div>
 
-        <form method="post" action="demoform.asp">
+        <form>
             <div data-role="fieldcontain">
                 <label for="breed">*Breed:</label>
                 <input type="text" name="breed" id="breed" required >
@@ -30,8 +30,8 @@
                 <input type="text" name="tags" id="tags">
             </div>
             <div data-role="fieldcontain">
-                <label for="textarea">Last Seen Location:</label>
-                <textarea name="location" id="location"></textarea>
+                <label for="location">Last Seen Location (City):</label>
+                <input type="text" name="location" id="location">
             </div>
             <button type="submit">Submit</button>
 </form>
