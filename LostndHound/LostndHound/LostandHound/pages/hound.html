@@ -13,14 +13,17 @@
 </head>
 <body>
     <div data-role="page" id="content">
+        <div data-role="header">
+            <h1>Found A Pet?</h1>
+        </div>
         <form>
             <div data-role="fieldcontain">
-                <label for="breed">Breed</label>
+                <label for="breed">*Breed</label>
                 <input type="text" name="breed" required />
             </div>
 
             <div data-role="fieldcontain">
-                <label for="color">Color</label>
+                <label for="color">*Color</label>
                 <input type="text" name="color" required />
             </div>
             <div data-role="fieldcontain">
@@ -38,6 +41,7 @@
 
 
         </form>
+        <div data-role="footer"></div>
     </div>
     <!--<div class="center">
         <a class="ui-button" href="#map-pg" onclick="refresh()"><i class="fa fa-map-marker fa-3x" aria-hidden="true"></i></a>
