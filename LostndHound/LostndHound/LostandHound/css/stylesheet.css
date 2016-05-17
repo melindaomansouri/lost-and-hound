@@ -35,7 +35,8 @@ p {
 }
 .ui-content {
     margin-left: 22%;
-    margin-top: 20%;
+    margin-top: 30%;
+    position: relative;
 }
 .logo {
     width: 52%;
