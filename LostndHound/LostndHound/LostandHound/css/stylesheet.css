@@ -30,3 +30,9 @@ p {
     width: 100%;
 }
 /*index page*/
+.ui-btn {
+    color: #808080;
+}
+.ui-content {
+    margin: 0 42.7%;
+}
