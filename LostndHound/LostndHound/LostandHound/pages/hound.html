@@ -3,6 +3,7 @@
 <head>
     <title>Hound</title>
 	<meta charset="utf-8" />
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic' rel='stylesheet' type='text/css'>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scales=1">
     <link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
@@ -13,6 +14,9 @@
 </head>
 <body>
 <div data-role="page" id="content">
+    <div data-role="header">
+        <h1>Found a Pet!</h1>
+    </div>
     <form>
         <div data-role="fieldcontain">
             <label for="breed">Breed</label>
@@ -27,12 +31,11 @@
             <label for="tags">Tags</label>
             <input type="text" name="tags" />
         </div>
-        <div data-roole="fieldcontain">
-        <label for="location">Location</label>
-        <textarea name="location"></textarea>
+        <div data-role="fieldcontain">
+            <label for="location">Location Found</label>
+            <input type="text" name="location" />
         </div>
-        Or use maps<br />
-    
+        <input type="submit" value="Submit" /> 
     </form>
     <div id="nav">
         <div data-role="footer">
@@ -50,7 +53,7 @@
         <div id="map"></div>
         <!--<button id="refresh" onclick="refresh()">Map not working?</button>-->
     </div>
-    <script>
+    <!--<script>
       function initMap() {
         var mapDiv = document.getElementById('map');
         var map = new google.maps.Map(mapDiv, {
@@ -63,7 +66,7 @@
       }
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
-            async defer></script>
+            async defer></script>-->
 </body>
 </body>
 </html>
