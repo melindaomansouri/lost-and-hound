@@ -34,5 +34,10 @@ p {
     color: #808080;
 }
 .ui-content {
-    margin: 0 42.7%;
+    margin-left: 22%;
+    margin-top: 20%;
+}
+.logo {
+    width: 52%;
+    margin: 15% 27%;
 }
